@@ -6,6 +6,5 @@ class MyList(list):
     """MyList class inherits from the python class list"""
 
     def print_sorted(self):
-        """this function sorts the current instance of the class MyList"""
-
+        """Prints the current instance of the class MyList sorted."""
         print(sorted(self))
