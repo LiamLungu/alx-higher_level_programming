@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-"""BaseGeometry class Documentation"""
+'''Module for BaseGeometry class.'''
 
 
 class BaseGeometry:
-    """creates empty BaseGeometry class"""
-
+    '''A BaseGeometry class.'''
     pass

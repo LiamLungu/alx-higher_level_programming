@@ -1,12 +1,7 @@
 #!/usr/bin/python3
-"""class inheritance checker"""
+'''Module for inherits_from method.'''
 
 
 def inherits_from(obj, a_class):
-    """checks if an obj is a subclass of a_class
-
-    Return:
-        True if an obj is a subclass of a_class, False otherwise
-    """
-
-    return (issubclass(type(obj), a_class) and type(obj) != a_class)
+    '''Determines if an object is a true subclass of a class.'''
+    return isinstance(obj, a_class) and type(obj) != a_class
