@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-'''Module for is_same_class method. '''
-
-
+"""class instance checker documentation"""
 
 def is_same_class:
-    "Determines if an object is exactly an instance of a class."""
+    """checks if the obj is exactly an instance of the specified class
+    Return:
+        True if the object is an instance, otherwise, False"""
+    # This function checks if the object is the exact instance of the specified class
+
     return isinstance(obj,a_class)
